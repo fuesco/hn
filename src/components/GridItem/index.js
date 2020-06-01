@@ -17,7 +17,7 @@ const GridItem = ({ url, title, id }) => {
           <Content>
             <Title>{title}</Title>
             <Source>
-              <div>{`// ${site}`}</div>
+              <div><i className="fas fa-link" />{` ${site}`}</div>
             </Source>
           </Content>
         </Card>

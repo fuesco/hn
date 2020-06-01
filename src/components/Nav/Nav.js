@@ -3,16 +3,17 @@ import PropTypes from 'prop-types';
 import { layouts, themes } from 'store/app/utils';
 
 import { Header, Spacer, NavSection, Content, Icon, Logo, Brand, ExternalLink } from './styles';
-
+import fuesSvg from '../../static/fues.svg';
+import fuesLightSvg from '../../static/fues-light.svg';
 const Nav = ({ layout, theme, setLayout, setTheme }) => (
   <div>
     <Header>
       <Content>
         <NavSection>
-          <ExternalLink href="https://jetlaglabs.com" target="_blank">
-            <Logo src={theme === themes.dark?"https://jetlaglabs.github.io/assets/logo/jetlaglabs/jet-white.svg":"https://jetlaglabs.github.io/assets/logo/jetlaglabs/favicon_io/apple-touch-icon.png"} /> 
+          <ExternalLink href="https://fues.us/" target="_blank" rel="noopener">
+            <Logo src={theme === themes.dark?fuesSvg:fuesLightSvg} /> 
             <Brand>
-              JetLagHN
+              Fues News
             </Brand>
           </ExternalLink>
         </NavSection>

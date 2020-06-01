@@ -63,14 +63,23 @@ class App extends Component {
           <Wrapper>
             <TitleWrapper>
               <Title>
-                <div>{'Hacker News Reader'}</div>
+                <div>{'Hacker News Reader '}<a href="https://github.com/gitconnected/hacker-news-reader" target="_blank" rel="noopener noreferrer">(Credits)</a></div>
               </Title>
               <div>
-                <SocialLink href="https://www.instagram.com/jetlaglabs" target="blank">
+                <SocialLink href="https://www.instagram.com/fues.us/" target="_blank" rel="noopener">
                   <i className="fab fa-instagram" />
                 </SocialLink>
-                <SocialLink href="https://www.jetlaglabs.com" target="blank">
+                <SocialLink href="https://www.instagram.com/fues.us/" target="_blank" rel="noopener">
+                  <i className="fab fa-twitter" />
+                </SocialLink>
+                <SocialLink href="https://fues.us/" target="_blank" rel="noopener">
                   <i className="fas fa-globe" />
+                </SocialLink>
+                <SocialLink href="https://www.github.com/fuesco/" target="_blank" rel="noopener">
+                  <i className="fab fa-github" />
+                </SocialLink>
+                <SocialLink href="https://github.com/HackerNews/API" target="_blank" rel="noopener">
+                  <i className="fas fa-server" />
                 </SocialLink>
               </div>
             </TitleWrapper>

@@ -41,13 +41,17 @@ export const Icon = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 25px;
+  height: 36px;
   border-radius: 2px;
   margin-right: 12px;
 `;
 
 export const Brand = styled.h4`
-  color: ${({ theme }) => theme.text}; 
+  color: ${({ theme }) => theme.text};
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  font-family: 'IBM Plex Sans Condensed', sans-serif; 
 `;
 
 export const Spacer = styled.div`

@@ -18,6 +18,10 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.textSecondary};
   font-size: 20px;
   font-weight: 300;
+  a {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
 `;
 
 export const TitleWrapper = styled.div`
