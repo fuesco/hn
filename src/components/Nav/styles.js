@@ -41,7 +41,7 @@ export const Icon = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 36px;
+  height: 28px;
   border-radius: 2px;
   margin-right: 12px;
 `;

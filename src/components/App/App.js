@@ -9,7 +9,7 @@ import Loader from 'components/Loader';
 import { layouts, themes } from 'store/app/utils';
 import { colorsDark, colorsLight } from 'styles/palette';
 
-import { Wrapper, Title, TitleWrapper, SocialLink } from './styles';
+import { Wrapper, TitleWrapper, SocialLink } from './styles';
 
 class App extends Component {
   static defaultProps = {
@@ -62,20 +62,11 @@ class App extends Component {
           <Nav />
           <Wrapper>
             <TitleWrapper>
-              <Title>
-                <div>{'Hacker News Reader '}<a href="https://github.com/gitconnected/hacker-news-reader" target="_blank" rel="noopener noreferrer">(Credits)</a></div>
-              </Title>
               <div>
-                <SocialLink href="https://www.instagram.com/fues.us/" target="_blank" rel="noopener">
-                  <i className="fab fa-instagram" />
-                </SocialLink>
-                <SocialLink href="https://www.instagram.com/fues.us/" target="_blank" rel="noopener">
+                <SocialLink href="https://www.instagram.com/fuesorg/" target="_blank" rel="noopener">
                   <i className="fab fa-twitter" />
                 </SocialLink>
-                <SocialLink href="https://fues.us/" target="_blank" rel="noopener">
-                  <i className="fas fa-globe" />
-                </SocialLink>
-                <SocialLink href="https://www.github.com/fuesco/" target="_blank" rel="noopener">
+                <SocialLink href="https://www.github.com/fuesorg/" target="_blank" rel="noopener">
                   <i className="fab fa-github" />
                 </SocialLink>
                 <SocialLink href="https://github.com/HackerNews/API" target="_blank" rel="noopener">
