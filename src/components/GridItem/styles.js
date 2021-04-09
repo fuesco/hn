@@ -19,7 +19,6 @@ export const ExternalLink = styled.a`
 
 export const Image = styled.img`
   display: block;
-  height: 240px;
   max-width: 100%;
   border-top-left-radius: ${RADIUS}px;
   border-top-right-radius: ${RADIUS}px;

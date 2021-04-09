@@ -4,7 +4,7 @@ import { tablet } from 'styles/mediaQueries';
 const HEIGHT = 48;
 
 export const Header = styled.header`
-  background-color: ${({ theme }) => theme.backgroundSecondary};
+  background-color: ${({ theme }) => theme.background};
   height: ${HEIGHT}px;
   color: ${({ theme }) => theme.text};
   width: 100%;
@@ -41,16 +41,14 @@ export const Icon = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 28px;
-  border-radius: 2px;
-  margin-right: 12px;
+  width: 64px;
+  margin-right: 24px;
 `;
 
 export const Brand = styled.h4`
   color: ${({ theme }) => theme.text};
   text-transform: uppercase;
   font-weight: 700;
-  font-style: italic;
   font-family: 'IBM Plex Sans Condensed', sans-serif; 
 `;
 

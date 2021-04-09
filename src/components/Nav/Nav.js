@@ -3,17 +3,15 @@ import PropTypes from 'prop-types';
 import { layouts, themes } from 'store/app/utils';
 
 import { Header, Spacer, NavSection, Content, Icon, Logo, Brand, ExternalLink } from './styles';
-import fuesSvg from '../../static/fues-reg-dark.svg';
-import fuesLightSvg from '../../static/fues-reg-light.svg';
 const Nav = ({ layout, theme, setLayout, setTheme }) => (
   <div>
     <Header>
       <Content>
         <NavSection>
           <ExternalLink href="https://fues.us/" target="_blank" rel="noopener">
-            <Logo src={theme === themes.dark?fuesSvg:fuesLightSvg} /> 
+            <Logo src={theme === themes.dark?'/fues-brand-dark.svg':'/fues-brand.svg'} /> 
             <Brand>
-              {'fues® hacker news'}
+              {'hacker news'}
             </Brand>
           </ExternalLink>
         </NavSection>
